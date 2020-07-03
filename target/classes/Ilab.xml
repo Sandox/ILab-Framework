@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iLab Framework Test">
+
+    <!--<parameter name="run-id-param" value="188" />
+    <parameter name="save-screenshots" value="true" />
+    <parameter name="ExcelLocation" value="QA" />
+    <parameter name="databaseURL" value="jdbc:mysql://10.0.0.233:3306/HelloFin" />
+    <parameter name="user" value="jenkins" />
+    <parameter name="password" value="jenkins" />
+    <parameter name="posttotestRail" value="No" />-->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+
+    <test name="apply for a position">
+        <classes>
+            <class name="IlabTest"/>
+        </classes>
+    </test>
+
+</suite>
