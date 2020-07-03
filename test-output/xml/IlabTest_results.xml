@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="apply for a position"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="160,944">
+  <properties />
+  
+  
+            <testcase name="test2" time="62,919" classname="IlabTest" />
+                <testcase name="test2" time="59,455" classname="IlabTest" />
+                <testcase name="test1" time="38,570" classname="IlabTest" />
+      
+</testsuite>
